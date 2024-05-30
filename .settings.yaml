@@ -3,11 +3,11 @@ name: test1
 description: this is test1
 model: ""
 createdAt: 2024-05-30T07:48:55.337Z
-updatedAt: 2024-05-30T07:55:45.828Z
+updatedAt: 2024-05-30T07:57:56.663Z
 createdBy: z1XPm7bpvbpCNCTtneossjSJgGa1jDgY9ik
 updatedBy: z1XPm7bpvbpCNCTtneossjSJgGa1jDgY9ik
 pinnedAt: null
-gitType: simple
+gitType: default
 temperature: 1
 topP: 1
 presencePenalty: null
