@@ -1,0 +1,38 @@
+type: prompt
+parameters:
+  - id: fTQ3jxLxGv25Uo8StP7sM
+    type: string
+    key: question
+  - id: 8wd3g0JzIbKZBc8YsBxfA
+    key: chatHistory
+    type: source
+    source:
+      variableFrom: history
+      chatHistory:
+        limit: 50
+        keyword: ""
+prompts:
+  - type: message
+    data:
+      id: nS2_Z6TgsWfSZ7aJ2duDU
+      role: user
+      content: "{{ question }}"
+  - type: message
+    data:
+      id: 20240530161932-I66bgL
+      role: user
+      content: hello word
+outputVariables:
+  - id: BQ_UbLgzdog4J9dEo--7o
+    name: $text
+  - id: ZC0fmZYIzjkckW86hxXIp
+    name: $appearance.page
+    appearance:
+      componentId: ctnxha29uu8cx4xv
+      componentName: Simple Page
+id: 20240530155619-5omTF7
+createdAt: 2024-05-30T07:56:19.949Z
+updatedAt: 2024-05-30T07:56:19.949Z
+createdBy: z1XPm7bpvbpCNCTtneossjSJgGa1jDgY9ik
+updatedBy: z1XPm7bpvbpCNCTtneossjSJgGa1jDgY9ik
+name: agent1
