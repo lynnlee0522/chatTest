@@ -3,7 +3,7 @@ name: test1
 description: this is test1
 model: ""
 createdAt: 2024-05-30T07:48:55.337Z
-updatedAt: 2024-05-30T07:49:52.129Z
+updatedAt: 2024-05-30T07:55:45.828Z
 createdBy: z1XPm7bpvbpCNCTtneossjSJgGa1jDgY9ik
 updatedBy: z1XPm7bpvbpCNCTtneossjSJgGa1jDgY9ik
 pinnedAt: null
@@ -13,4 +13,4 @@ topP: 1
 presencePenalty: null
 frequencyPenalty: null
 maxTokens: null
-gitAutoSync: null
+gitAutoSync: true
